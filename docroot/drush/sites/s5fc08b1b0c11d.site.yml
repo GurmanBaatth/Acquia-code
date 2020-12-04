@@ -1,0 +1,32 @@
+# Application 's5fc08b1b0c11d', environment 'dev'.
+dev:
+  root: /var/www/html/s5fc08b1b0c11d.dev/docroot
+  ac-site: s5fc08b1b0c11d
+  ac-env: dev
+  ac-realm: devcloud
+  uri: s5fc08b1b0c11dtakncakzcm.devcloud.acquia-sites.com
+  dev.livedev:
+    parent: '@s5fc08b1b0c11d.dev'
+    root: /mnt/gfs/s5fc08b1b0c11d.dev/livedev/docroot
+  host: s5fc08b1b0c11dtakncakzcm.ssh.devcloud.acquia-sites.com
+  user: s5fc08b1b0c11d.dev
+  paths:
+    drush-script: drush9
+
+
+# Application 's5fc08b1b0c11d', environment 'test'.
+test:
+  root: /var/www/html/s5fc08b1b0c11d.test/docroot
+  ac-site: s5fc08b1b0c11d
+  ac-env: test
+  ac-realm: devcloud
+  uri: s5fc08b1b0c11diyed8brvzh.devcloud.acquia-sites.com
+  test.livedev:
+    parent: '@s5fc08b1b0c11d.test'
+    root: /mnt/gfs/s5fc08b1b0c11d.test/livedev/docroot
+  host: s5fc08b1b0c11diyed8brvzh.ssh.devcloud.acquia-sites.com
+  user: s5fc08b1b0c11d.test
+  paths:
+    drush-script: drush9
+
+
